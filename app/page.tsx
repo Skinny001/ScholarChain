@@ -202,7 +202,7 @@ function App() {
         <div className="mx-auto flex h-18 max-w-[1400px] items-center justify-between px-5 lg:px-8">
           <div className="flex items-center gap-10">
             <button className="flex items-center gap-2.5" onClick={() => { setActiveNav('Overview'); setShowLanding(true) }} aria-label="ScholarChain home">
-              <span className="flex size-9 items-center justify-center rounded-xl bg-blue-600 text-white shadow-sm"><ShieldCheck className="size-5" /></span>
+              <span className="flex size-9 items-center justify-center overflow-hidden rounded-xl bg-blue-600 text-white shadow-sm"><img src="/logo.jpg" alt="ScholarChain Logo" className="size-full object-cover" /></span>
               <span className="text-lg font-bold tracking-tight">Scholar<span className="text-blue-600">Chain</span></span>
             </button>
             <nav className="hidden items-center gap-1 lg:flex" aria-label="Main navigation">

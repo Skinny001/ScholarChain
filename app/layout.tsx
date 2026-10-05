@@ -5,23 +5,10 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'ScholarChain · Transparent scholarships on-chain',
   description: 'Fund verified scholarships with milestone-based escrow and transparent progress.',
-  generator: 'v0.app',
+  generator: 'ScholarChain',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/logo.jpg',
+    apple: '/logo.jpg',
   },
 }
 

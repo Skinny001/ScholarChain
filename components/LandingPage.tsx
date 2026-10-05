@@ -6,7 +6,7 @@ export function LandingPage({ onEnter }: { onEnter: () => void }) {
     <div className="min-h-screen overflow-hidden bg-[#081326] text-white">
       <header className="relative z-10 mx-auto flex max-w-7xl items-center justify-between px-5 py-6 lg:px-8">
         <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="flex items-center gap-2.5" aria-label="ScholarChain home">
-          <span className="flex size-10 items-center justify-center rounded-xl bg-blue-500 text-white shadow-lg shadow-blue-500/20"><ShieldCheck className="size-5" /></span>
+          <span className="flex size-10 items-center justify-center overflow-hidden rounded-xl bg-blue-500 text-white shadow-lg shadow-blue-500/20"><img src="/logo.jpg" alt="ScholarChain Logo" className="size-full object-cover" /></span>
           <span className="text-xl font-bold tracking-tight">Scholar<span className="text-blue-400">Chain</span></span>
         </button>
         <nav className="hidden items-center gap-8 text-sm text-slate-300 md:flex" aria-label="Landing page navigation">
