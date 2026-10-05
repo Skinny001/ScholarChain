@@ -46,7 +46,17 @@ export function LandingPage({ onEnter }: { onEnter: () => void }) {
 
         <section className="mx-auto max-w-7xl px-5 pb-20 lg:px-8 lg:pb-28"><div className="flex flex-col items-start justify-between gap-8 rounded-3xl bg-blue-500 p-8 md:flex-row md:items-center md:p-12"><div><p className="text-sm font-semibold uppercase tracking-[0.18em] text-blue-100">Start where impact begins</p><h2 className="mt-3 max-w-xl text-3xl font-semibold tracking-tight md:text-4xl">Help a student take the next step.</h2></div><Button onClick={onEnter} size="lg" className="h-13 shrink-0 rounded-xl bg-white px-6 text-base font-semibold text-slate-950 hover:bg-blue-50">Enter ScholarChain <ArrowUpRight data-icon="inline-end" /></Button></div></section>
       </main>
-      <footer className="border-t border-white/10 px-5 py-8 lg:px-8"><div className="mx-auto flex max-w-7xl flex-col justify-between gap-3 text-sm text-slate-500 sm:flex-row"><span>ScholarChain</span><span>Transparent scholarships. Measurable futures.</span></div></footer>
+      <footer className="border-t border-white/10 px-5 py-8 lg:px-8">
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-center gap-2 text-center text-sm text-slate-400">
+          <p className="font-medium text-slate-400">
+            Powered by <span className="font-bold text-white">BOT Chain</span>
+          </p>
+          <div className="flex items-center justify-center gap-6 text-sm font-medium">
+            <a href="https://botchain.ai" target="_blank" rel="noreferrer" className="text-blue-400 hover:underline">botchain.ai</a>
+            <a href="https://scan.botchain.ai" target="_blank" rel="noreferrer" className="text-blue-400 hover:underline">scan.botchain.ai</a>
+          </div>
+        </div>
+      </footer>
     </div>
   )
 }

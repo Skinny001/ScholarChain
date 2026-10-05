@@ -316,6 +316,19 @@ function App() {
         isOpen={applyOpen}
         onClose={() => setApplyOpen(false)}
       />
+
+      <footer className="mt-12 border-t border-slate-200 bg-white py-8">
+        <div className="mx-auto flex max-w-[1400px] flex-col items-center justify-center gap-2 px-5 text-center lg:px-8">
+          <p className="text-sm font-medium text-slate-500">
+            Powered by <span className="font-bold text-slate-900">BOT Chain</span>
+          </p>
+          <div className="flex items-center gap-6 text-sm font-medium">
+            <a href="https://botchain.ai" target="_blank" rel="noreferrer" className="text-blue-600 hover:underline">botchain.ai</a>
+            <a href="https://scan.botchain.ai" target="_blank" rel="noreferrer" className="text-blue-600 hover:underline">scan.botchain.ai</a>
+          </div>
+        </div>
+      </footer>
+
       {toast && <div role="status" className="fixed bottom-5 right-5 z-40 flex items-center gap-3 rounded-xl bg-slate-950 px-4 py-3 text-sm font-medium text-white shadow-xl"><Check className="size-4 text-emerald-400" />{toast}<button onClick={() => setToast('')} aria-label="Dismiss notification"><X className="size-4 text-slate-400" /></button></div>}
     </div>
   )
